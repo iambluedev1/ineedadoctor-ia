@@ -49,6 +49,7 @@ srv.use(
 );
 
 srv.get("/", require("./http/home").index);
+srv.get("/api/predict", require("./http/predict").predict);
 
 srv.get("*", (req, res) => {
   const html = ` \
