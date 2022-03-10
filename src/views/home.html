@@ -1,15 +1,413 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US" dir="ltr">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Do i need a doctor ?</title>
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/logo.png">
+
+
+    <link rel="stylesheet" crossorigin="anonymous"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==">
+    <link href="/assets/css/theme.css" rel="stylesheet" />
+
+    <link href="/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&amp;display=swap"
+        rel="stylesheet" />
 </head>
 
+
 <body>
-    I need a doctor ?
+    <main class="main" id="top">
+        <section class="mt-6">
+
+            <div class="container">
+                <div class="row align-items-center" style="justify-content: center;">
+                    <div class="col-md-6 col-lg-6 col-xl-6 text-center">
+                        <img src="/assets/img/logo.png" style="width: 50%;padding-bottom: 1rem;" ; />
+                        <h1 class="display-3 lh-sm">do i need a doctor ?</h1>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+
+            <div class="container">
+                <div class="text-center">
+                    <div class="p-5 bg-primary rounded-3">
+                        <div class="py-3">
+                            <h4 class="opacity-50 ls-2 lh-base fw-medium" style="color: #399d4e;">problématique</h4>
+                            <h2 class="mt-3 fs-4 fs-sm-7 latter-sp-3 lh-base fw-semi-bold" style="color: #399d4e;">
+                                Pouvons-nous
+                                détecter les maladies
+                                cardiaques à partir d’un ensemble de données médicales ?</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="mt-5">
+
+            <div class="container">
+                <div class="text-center">
+                    <div class="p-5 bg-primary rounded-3">
+                        <div class="py-3">
+                            <h4 class="opacity-50 ls-2 lh-base fw-medium" style="color: #399d4e;">DO I NEED A DOCTOR ?
+                            </h4>
+                        </div>
+                        <form action="#" method="get" id="ia-form">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">sex</label>
+                                        <input type="number" class="form-control" name="sex">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">age</label>
+                                        <input type="number" class="form-control" name="age">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">cp</label>
+                                            <input type="number" class="form-control" name="cp">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">trestbps</label>
+                                            <input type="number" class="form-control" name="trestbps">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">chol</label>
+                                            <input type="number" class="form-control" name="chol">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">fbs</label>
+                                            <input type="number" class="form-control" name="fbs">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">restecg</label>
+                                            <input type="number" class="form-control" name="restecg">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">thalach</label>
+                                            <input type="number" class="form-control" name="thalach">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">exang</label>
+                                            <input type="number" class="form-control" name="exang">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">oldpeak</label>
+                                            <input type="number" class="form-control" name="oldpeak">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">slope</label>
+                                            <input type="number" class="form-control" name="slope">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">ca</label>
+                                            <input type="number" class="form-control" name="ca">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <label class="form-label">thal</label>
+                                            <input type="number" class="form-control" name="thal">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">C'est partit !</button>
+                        </form>
+                    </div>
+
+                    <img src="/assets/img/loader.gif" id="loader" style="display: none" />
+                    <p id="error" style="color:red" style="display: none"></p>
+                    <div id="result-yes" style="display: none; color: #399d4e !important;">
+                        <h1 style="color: #399d4e !important;">You need a doctor !</h1>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rXc_XMKkt7Y"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <h2 id="result-yes-data"></h2>
+                    </div>
+                    <div id="result-no" style="display: none">
+                        <h1 style="color: #399d4e !important;">You don't need a doctor !</h1>
+                        <h2 id="result-no-data"></h2>
+                        <p style="color: #399d4e !important;">mais vous pouvez toujours aller écouter ce chef d'oeuvre !
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rXc_XMKkt7Y"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="mt-5">
+
+            <div class="container">
+                <div class="text-center">
+                    <p class="fs-2 ls-2">MACHINE LEARNING</p>
+                    <h1 class="display-6 fw-semi-bold">Comment ça marche ?</h1>
+                </div>
+                <div class="row mt-6 flex-center justify-content-xl-evenly px-xl-5">
+                    <div class="col-md-7 col-lg-6 order-md-1"><img class="w-100" src="/assets/img/gallery/comment1.png"
+                            alt="..." /></div>
+                    <div class="col-md-5 col-lg-4">
+                        <h3 class="fs-xl-7 fs-lg-4 fs-md-3 mt-5 mt-md-0">La donnée !</h3>
+                        <p class="fs-xl-1 ls-3 pe-xl-2"> En amont nous avons récupèrer les données de l'UCI de
+                            Cleaveland à propos
+                            de patients ayant des problèmes aux coeurs ou non</p>
+                    </div>
+                </div>
+                <div class="row mt-6 flex-center justify-content-xl-evenly px-xl-5">
+                    <div class="col-md-7 col-lg-6 false"><img class="w-100" src="/assets/img/gallery/comment2.png"
+                            alt="..." />
+                    </div>
+                    <div class="col-md-5 col-lg-4">
+                        <h3 class="fs-xl-7 fs-lg-4 fs-md-3 mt-5 mt-md-0">Traitement</h3>
+                        <p class="fs-xl-1 ls-3 pe-xl-2"> Grâce a une technologique hautement avancée, nous avons créer
+                            un un
+                            algorithme permettant de prédire en fonction des données de l'UCI si oui ou non vous avez
+                            besoin d'un
+                            docteur</p>
+                    </div>
+                </div>
+                <div class="row mt-6 flex-center justify-content-xl-evenly px-xl-5">
+                    <div class="col-md-7 col-lg-6 order-md-1"><img class="w-100" src="/assets/img/gallery/comment3.png"
+                            alt="..." /></div>
+                    <div class="col-md-5 col-lg-4">
+                        <h3 class="fs-xl-7 fs-lg-4 fs-md-3 mt-5 mt-md-0">C'est à vous !</h3>
+                        <p class="fs-xl-1 ls-3 pe-xl-2"> Il ne vous reste plus qu'a tester ! Alors, besoin d'un docteur
+                            ou pas ?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- end of .container-->
+
+        </section>
+
+        <section>
+
+            <div class="container">
+                <h1 class="display-6 fw-semi-bold"> Aide - Glossaire</h1>
+                <p class="fs-2">Vous voulez savoir si vous avec besoin d'un docteur mais vous n'y comprenez rien ? </p>
+                <div class="row mb-4 mt-6">
+                    <div class="col-md-6">
+                        <div class="border rounded-1 border-700 h-100 features-items">
+                            <div class="p-5">
+                                <h3 class="pt-3 lh-base">cp</h3>
+                                <p class="mb-0">Cela correspond au type de douleur thoracique, allant de 1 à 4. 4 est
+                                    équivalent à
+                                    aucune douleur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="border rounded-1 border-700 h-100 features-items">
+                            <div class="p-5">
+                                <h3 class="pt-3 lh-base">trestbps</h3>
+                                <p class="mb-0">C'est la pression artérielle au repos en mmHg</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <div class="border rounded-1 border-700 h-100 features-items">
+                            <div class="p-5">
+                                <h3 class="pt-3 lh-base">chol</h3>
+                                <p class="mb-0">C'est le taux de cholestérol en mg/dl
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="border rounded-1 border-700 h-100 features-items">
+                            <div class="p-5">
+                                <h3 class="pt-3 lh-base">fbs</h3>
+                                <p class="mb-0">C'est à la glycémie à jeun, si elle > à 120mg/dl then 1(hyperglycémie ou
+                                    peut-être
+                                    même du diabète) else 0 (pas
+                                    de problème)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <div class="border rounded-1 border-700 h-100 features-items">
+                            <div class="p-5">
+                                <h3 class="pt-3 lh-base">restcg</h3>
+                                <p class="mb-0">C'est les résultats de l’ECG (electro cardiogramme du patient) : 0 =
+                                    normal / 1 =
+                                    anomalie de l’onde ST-T / 2 = hypertrophie
+                                    ventriculaire gauche
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="border rounded-1 border-700 h-100 features-items">
+                            <div class="p-5">
+                                <h3 class="pt-3 lh-base">thalach</h3>
+                                <p class="mb-0">C'est la fréquence cardiaque maximale
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <div class="border rounded-1 border-700 h-100 features-items">
+                            <div class="p-5">
+                                <h3 class="pt-3 lh-base">exang</h3>
+                                <p class="mb-0">C'est la douleur induite par un exercice : 1 = oui et 0 = non
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="border rounded-1 border-700 h-100 features-items">
+                            <div class="p-5">
+                                <h3 class="pt-3 lh-base">oldpeak</h3>
+                                <p class="mb-0">C'est la dépression de ST suite à un exercice physique par rapport au
+                                    repos
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <div class="border rounded-1 border-700 h-100 features-items">
+                            <div class="p-5">
+                                <h3 class="pt-3 lh-base">slope</h3>
+                                <p class="mb-0">C'est le segment ST du pic à l’exercice : 1 = pente ascendante / 2 =
+                                    plat / 3 = pente
+                                    descendante
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="border rounded-1 border-700 h-100 features-items">
+                            <div class="p-5">
+                                <h3 class="pt-3 lh-base">ca</h3>
+                                <p class="mb-0">C'est le nombre de vaisseaux sanguins majeurs qui ont été colorés par
+                                    fluoroscopie
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <div class="border rounded-1 border-700 h-100 features-items">
+                            <div class="p-5">
+                                <h3 class="pt-3 lh-base">thal</h3>
+                                <p class="mb-0">C'est la thalassémie (groupe de maladie héréditaire dûes à la
+                                    perturbation
+                                    de la fabrication de l’une des 4
+                                    chaînes des acides aminés qui constituent l’hémoglobine) : 1 = normal / 2 = défaut
+                                    réversible / 3 =
+                                    défaut fixe
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of .container-->
+
+
+
+            <!-- end of .container-->
+
+        </section>
+        <section>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 pt-2 pt-xl-0 text-center text-xl-end">
+                        <p class="mb-0">&copy; This template is made with ❤️ by <a class="text-300"
+                                href="https://themewagon.com/" target="_blank"> ThemeWagon</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- end of .container-->
+
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="vendors/@popperjs/popper.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="vendors/is/is.min.js"></script>
+    <script src="vendors/swiper/swiper-bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+        rel="stylesheet">
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/script.js?v=2"></script>
+
+
 </body>
 
 </html>
