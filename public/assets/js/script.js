@@ -40,13 +40,13 @@ document.getElementById("ia-form").addEventListener("submit", (e) => {
               document.getElementById("result-no").style.display = "";
               document.getElementById(
                 "result-no-data",
-              ).innerText = `Probabilités : non= ${json.target0Probability}% et oui = ${json.target1Probability}%`;
+              ).innerText = `Probabilités à ${json.target0Probability}% `;
             } else {
               document.getElementById("result-yes").style.display =
                 "";
               document.getElementById(
                 "result-yes-data",
-              ).innerText = `Probabilités : non= ${json.target0Probability}% et oui = ${json.target1Probability}%`;
+              ).innerText = `Probabilités à ${json.target1Probability}%`;
             }
           });
       }, 2000);
