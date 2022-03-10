@@ -60,6 +60,6 @@ document.getElementById("ia-form").addEventListener("submit", (e) => {
           document.getElementById("error").innerText =
             "Oups, il semble que cela est prit trop de temps 😞";
         }
-      }, 60000);
+      }, 120000);
     });
 });

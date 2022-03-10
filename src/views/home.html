@@ -150,18 +150,23 @@
                                         </div>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-primary">C'est partit !</button>
+                                <button type="submit" class="btn btn-primary">C'est parti !</button>
                         </form>
                     </div>
 
-                    <img src="/assets/img/loader.gif" id="loader" style="display: none" />
+                    <div id="loader" style="display: none">
+                        <img src="/assets/img/loader.gif" />
+                        <p style="color: #399d4e !important;">En attendant, vous pouvez aller écouter ce chef d'oeuvre
+                            🥰</p>
+                        <a href="https://youtube.com/watch?v=VA770wpLX-Q"><img src="/assets/img/youtube.png"
+                                style="width: 100%;" /></a>
+                    </div>
+
                     <p id="error" style="color:red" style="display: none"></p>
                     <div id="result-yes" style="display: none; color: #399d4e !important;">
                         <h1 style="color: #399d4e !important;">You need a doctor !</h1>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rXc_XMKkt7Y"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                        <a href="https://youtube.com/watch?v=VA770wpLX-Q"><img src="/assets/img/youtube.png"
+                                style="width: 100%;" /></a>
                         <h2 id="result-yes-data"></h2>
                     </div>
                     <div id="result-no" style="display: none">
@@ -169,10 +174,8 @@
                         <h2 id="result-no-data"></h2>
                         <p style="color: #399d4e !important;">mais vous pouvez toujours aller écouter ce chef d'oeuvre !
                         </p>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rXc_XMKkt7Y"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                        <a href="https://youtube.com/watch?v=VA770wpLX-Q"><img src="/assets/img/youtube.png"
+                                style="width: 100%;" /></a>
                     </div>
                 </div>
             </div>
@@ -405,7 +408,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&amp;display=swap"
         rel="stylesheet">
     <script src="/assets/js/theme.js"></script>
-    <script src="/assets/js/script.js?v=2"></script>
+    <script src="/assets/js/script.js?v=3"></script>
 
 
 </body>
